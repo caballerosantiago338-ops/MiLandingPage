@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    <title>Mi CV - Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <details class="accordion-nav">
+                <summary class="nav-link">Menú</summary>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#linktree" class="nav-link">Mis Redes</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </details>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <img src="./mifoto.jpeg" alt="Mi Foto de Perfil" class="profile-photo">
+            <h1 class="profile-name">Erick Santiago Caballero Urrutia 
+                grado 11-01
+            </h1>
+            <p class="profile-summary">Hola, soy ERICK! estudiante del CASD Jose Prudencio Padilla, cursando onceavo grado y procimo especializado en mecanizado de tornos y fresadora. 
+            Soy amante a los videojuegos, a las peliculas de tarantino y a la tecnologia.
+            </p>
+            <div class="contact-info">
+                <p><strong>Correo:</strong><a href="mailto:elias.vance.dev@email.com">caballerosantiago338@gmail.com</a></p>
+                <p><strong>Teléfono:</strong><a href="http://wa.me/+57" target="_blank" rel="noopener noreferrer">+57 3175944784</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Estudios y Experiencia</h2>
+        <div class="section-content">
+            <h3>Estudios Realizados</h3>
+            <ul class="list">
+                <li>
+                    <h4>CASD Jose Prudencio Pasilla</h4>
+                    <p>estudiante de onceavo grado | Año de Finalización: 2025</p>
+                    <P>Descripción: Formación académica en bachillerato con especialidad en Mecánica.</P>
+                </li>
+                <li>
+            
+                </li>
+            </ul>
+
+            <h3>Experiencia Laboral</h3>
+            <ul class="list">
+                <li>
+                    <h4>Sin experiencia laboral</h4>
+                    <p> <br>Actualmente me encuentro enfocado en mis estudios de grado 11.</p>
+                </li>
+                <li>
+                   
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>En formación en Mecánica</h3>
+               
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Habilidades Blandas</h3>
+                <ul class="list-inline">
+                    <li>Trabajo en Equipo</li>
+                    <li>Responsabilidad</li>
+                    <li>Compromiso</li>
+                    <li>Disciplina</li>
+                    <li>Respeto</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="linktree" class="section linktree-section">
+        <h2 class="section-title">Mis Redes y Proyectos</h2>
+        <div class="linktree-container">
+            <img src="./Perfil.png" alt="Tu Foto de Perfil" class="profile-photo">
+            <a href="TIKTOK" target="_blank" class="linktree-link"><strong>https://www.tiktok.com/@erickk_188</strong></a>
+            <a href="INSTAGRAM" target="_blank" class="linktree-link"><strong>https://www.instagram.com/erixkkz_/</strong></a>
+            </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Contáctame</h2>
+        <form action="https://formspree.io/f/tu-email-de-formspree" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 ERICK <br> Todos los derechos reservados.</p>
+        <p>Desde el ❤️ del CASD para todo el mundo</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
